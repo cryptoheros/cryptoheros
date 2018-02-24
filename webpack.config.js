@@ -23,7 +23,8 @@ module.exports = {
       { from: './src/index.html', to: "index.html" },
       { from: './src/images', to: "images" },
       { from: './src/fonts', to: "fonts" },
-      { from: './src/js', to: "js" }
+      { from: './src/js', to: "js" },
+      { from: './src/css', to: "css" }
     ]),
     new ExtractTextPlugin("app.css")
   ],
