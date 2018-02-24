@@ -24,7 +24,8 @@ module.exports = {
       { from: './src/images', to: "images" },
       { from: './src/fonts', to: "fonts" },
       { from: './src/js', to: "js" },
-      { from: './src/css', to: "css" }
+      { from: './src/css', to: "css" },
+      { from: './src/heros.json', to: "heros.json" }
     ]),
     new ExtractTextPlugin("app.css")
   ],
