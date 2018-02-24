@@ -25,7 +25,8 @@ module.exports = {
       { from: './src/fonts', to: "fonts" },
       { from: './src/js', to: "js" },
       { from: './src/css', to: "css" },
-      { from: './src/heros.json', to: "heros.json" }
+      { from: './src/heros.json', to: "heros.json" },
+      { from: './contracts/Adoption.json', to: "Adoption.json" }
     ]),
     new ExtractTextPlugin("app.css")
   ],
